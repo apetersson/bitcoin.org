@@ -1,0 +1,278 @@
+---
+layout: base
+id: faq
+---
+<h1>{% translate pagetitle %}</h1>
+<p class="summary">{% translate summary %}</p>
+
+<!--<div class="index">
+<a href="#{% translate {{v}} anchor.faq %}">{% translate {{v}} %}</a>
+</div>-->
+
+<!--FIXME should also link to the Wiki FAQ https://en.bitcoin.it/wiki/FAQ-->
+
+<ul class="index">
+<li><a href="#general">General</a></li>
+<ul>
+  <li><a href="#what-are-bitcoins">What are Bitcoins?</a></li>
+  <li><a href="#how-to-get-bitcoins">How can I get Bitcoins?</a></li>
+  <li><a href="#does-bitcoin-guarantee-an-influx-of-free-money">Does Bitcoin guarantee an influx of free money?</a></li>
+  <li><a href="#can-i-buy-bitcoins-with-credit-card-or-paypal">Can I buy bitcoins with my credit card or PayPal?</a></li>
+  <li><a href="#how-are-new-bitcoins-created">How are new bitcoins created?</a></li>
+  <li><a href="#what-is-the-current-total-number-of-bitcoins-in-existence">What is the current total number of bitcoins in existence?</a></li>
+  <li><a href="#what-do-i-call-the-various-denominations-of-bitcoins">What do I call the various denominations of bitcoins?</a></li>
+  <li><a href="#how-does-the-halving-work-when-the-number-gets-really-small">How does the halving work when the number gets really small?</a></li>
+  <li><a href="#how-long-will-it-take-to-generate-all-the-coins">How long will it take to generate all the coins?</a></li>
+  <li><a href="#if-no-more-coins-are-going-to-be-generated-will-more-blocks-be-created">If no more coins are going to be generated, will more blocks be created?</a></li>
+  <li><a href="#but-if-no-more-coins-are-generated-what-happens-when-bitcoins-are-lost">But if no more coins are generated, what happens when Bitcoins are lost?</a></li>
+  <li><a href="#if-every-transaction-is-broadcast-via-the-network-does-bitcoin-scale">If every transaction is broadcast via the network, does Bitcoin scale?</a></li>
+</ul>
+<li><a href="#economy">Economy</a></li>
+<ul>
+  <li><a href="#where-does-the-value-of-bitcoin-stem-from-what-backs-up-bitcoin">Where does the value of Bitcoin stem from? What backs up Bitcoin?</a></li>
+  <li><a href="#is-bitcoin-a-bubble">Is Bitcoin a bubble?</a></li>
+  <li><a href="#is-bitcoin-a-ponzi-scheme">Is Bitcoin a Ponzi scheme?</a></li>
+  <li><a href="#is-bitcoin-a-pyramid-scheme">Is Bitcoin a Pyramid scheme?</a></li>
+  <li><a href="#doesnt-bitcoin-unfairly-benefit-early-adopters">Doesn't Bitcoin unfairly benefit early adopters?</a></li>
+  <li><a href="#wont-the-finite-amount-of-bitcoins-create-excessive-deflation">Won't the finite amount of Bitcoins create excessive deflation?</a></li>
+  <li><a href="#what-if-someone-bought-up-all-the-existing-bitcoins">What if someone bought up all the existing Bitcoins?</a></li>
+  <li><a href="#what-if-someone-creates-a-new-digital-currency-that-renders-bitcoin-obsolete">What if someone creates a new digital currency that renders Bitcoin obsolete?</a></li>
+</ul>
+<li><a href="#transaction">Transaction</a></li>
+<ul>
+  <li><a href="#why-do-i-have-to-wait-10-minutes-before-i-can-spend-money-i-received">Why do I have to wait 10 minutes before I can spend money I received?</a></li>
+  <li><a href="#do-you-have-to-wait-until-my-transactions-are-confirmed-in-order-to-buy-or-sell-things">Do you have to wait until my transactions are confirmed in order to buy or sell things?</a></li>
+  <li><a href="#i-was-sent-some-bitcoins-and-they-havent-arrived-yet-where-are-they">I was sent some bitcoins and they haven't arrived yet! Where are they?</a></li>
+  <li><a href="#why-does-my-bitcoin-address-keep-changing">Why does my Bitcoin address keep changing?</a></li>
+  <li><a href="#how-much-will-the-transaction-fee-be">How much will the transaction fee be?</a></li>
+  <li><a href="#what-happens-when-someone-sends-me-a-bitcoin-but-my-computer-is-powered-off">What happens when someone sends me a bitcoin but my computer is powered off?</a></li>
+  <li><a href="#how-long-does-synchronizing-take-when-the-bitcoin-client-is-first-installed-whats-it-doing">How long does "synchronizing" take when the Bitcoin client is first installed? What's it doing?</a></li>
+</ul>
+<li><a href="#mining">Mining</a></li>
+<ul>
+  <li><a href="#what-is-mining">What is mining?</a></li>
+  <li><a href="#is-it-not-a-waste-of-energy">Is it not a waste of energy?</a></li>
+  <li><a href="#how-does-mining-help-secure-bitcoin">How does mining help secure Bitcoin?</a></li>
+  <li><a href="#what-do-i-need-to-start-mining">What do I need to start mining?</a></li>
+</ul>
+<li><a href="#security">Security</a></li>
+<ul>
+  <li><a href="#could-miners-collude-and-break-bitcoin">Could miners collude and break Bitcoin?</a></li>
+  <li><a href="#hasnt-bitcoin-been-hacked-in-the-past">Hasn't Bitcoin been hacked in the past?</a></li>
+</ul>
+<li><a href="#help">Help</a></li>
+</ul>
+
+<h2><a name="general">General</a></h2>
+
+<h3><a name="what-are-bitcoins">What are bitcoins?</a></h3>
+<p>Bitcoins are the unit of currency of the Bitcoin system. A commonly used shorthand for this is “BTC” to refer to a price or amount (eg: “100 BTC”).</p>
+<p>There are such things as <a href="https://en.bitcoin.it/wiki/Physical_bitcoins">physical bitcoins</a>, but ultimately, a bitcoin is just a number associated with a Bitcoin address.  A physical bitcoin is simply an object, such as a coin, with the number carefully embedded inside. See also an <a href="https://en.bitcoin.it/wiki/Introduction">Introduction to bitcoin</a>.</p>
+
+<h3 name="how-to-get-bitcoins">How can I get bitcoins?</a></h3>
+<p>There are a variety of ways to acquire bitcoins:</p>
+<ul>
+	<li>Accept bitcoins as payment for goods or services.</li>
+	<li>There are several services where you can <a href="https://en.bitcoin.it/wiki/Buying_Bitcoins_(the_noob_version)">trade them</a> for traditional currency.</li>
+	<li>Find someone to trade cash for bitcoins in-person through a <a href="https://en.bitcoin.it/wiki/Category:Directories">local directory</a>.</li>
+	<li>Participate in a <a href="https://en.bitcoin.it/wiki/Pooled_mining">mining pool</a>.</li>
+	<li>If you have a lot of mining hardware, you can solo mine and attempt to create a new <a href="https://en.bitcoin.it/wiki/block">block</a> (currently yields 25 bitcoins plus transaction fees).</li>
+</ul>
+
+<h3><a name="does-bitcoin-guarantee-an-influx-of-free-money">Does Bitcoin guarantee an influx of free money?</a></h3>
+<p>
+Since Bitcoin is a new technology, what it is and how it works may be initially unclear. Bitcoin is sometimes presented as being one of three things:
+</p>
+<ol style="list-style-type: upper-alpha;">
+  <li>Some sort of online 'get-rich-quick' scam.</li>
+  <li>A loophole in the market economy, the installation of which guarantees a steady influx of cash.</li>
+  <li>A sure investment that will almost certainly yield a profit.</li>
+</ol>
+<p>
+In fact, none of the above are true. Let's look at them independently.
+</p>
+
+<h4>Is Bitcoin a 'get-rich-quick' scheme?</h4>
+
+<p>If you've spent much time on the Internet, you've probably seen ads for many 'get-rich-quick' schemes. These ads usually promise huge profits for a small amounts of easy work. Such schemes are usually pyramid/matrix-style schemes that make money from their own employees and offer nothing of any real value. Most convince one to buy packages that will make them earn hundreds a day, which in fact have the buyer distribute more such ads, and make minute profits.</p>
+
+<p>Bitcoin is in no way similar to these schemes. Bitcoin doesn't promise windfall profits. There is no way for the developers to make money from your involvement or to take money from you. That bitcoins are nearly impossible to acquire without the owner's consent represents one of its greatest strengths. Bitcoin is an experimental, virtual currency that may succeed or may fail. None of its developers expect to get rich off of it.</p> 
+
+<p>A more detailed answer to this question can be found <a href="http://bitcointalk.org/?topic=7815.0">here</a>.</p>
+
+<h4>Will I make money by installing the client?</h4>
+
+<p>Most people who use Bitcoin don't earn anything by doing so, and the default client has no built-in way to earn Bitcoins. A small minority of people with dedicated, high-performance hardware do earn some Bitcoins by "<i>mining</i>" (generating new bitcoins, see [[#What is mining?|What is mining?]]) with special software, but joining Bitcoin shouldn't be construed as being the road to riches. Most Bitcoin users get involved because they find the project conceptually interesting and don't earn anything by doing so. This is also why you won't find much speculation about the political or economic repercussions of Bitcoin anywhere on this site: Bitcoin developers owe their dedication to the project's intellectual yieldings more than to those of a monetary nature. Bitcoin is still taking its first baby steps; it may go on to do great things but right now it only has something to offer those chasing conceptually interesting projects or bleeding edge technology.
+</p>
+
+<h4>As an investment, is Bitcoin a sure thing?</h4>
+<p>Bitcoin is a new and interesting electronic currency, the value of which is not backed by any single government or organization. Like other currencies, it is worth something partly because people are willing to trade it for goods and services. Its exchange rate fluctuates continuously, and sometimes wildly. It lacks wide acceptance and is vulnerable to manipulation by parties with modest funding. Security incidents such as website and account compromise may trigger major sell-offs. Other fluctuations can build into positive feedback loops cause much larger exchange rate fluctuations. Anyone who puts money into Bitcoin should take measures to reduce their risk and consider it as a high-risk currency. Later, as Bitcoin becomes better known and more widely accepted, it should stabilize, but for the time being it is unpredictable. Any investment in Bitcoin should be done carefully and with a clear plan to manage risk.<p>
+
+<h3><a name="can-i-buy-bitcoins-with-credit-card-or-paypal">Can I buy bitcoins with my credit card or PayPal?</a></h3>
+<p>While it is possible to find an individual who wishes to sell bitcoins to you in exchange for a credit card or PayPal payment, most exchanges do not allow funding for these payment methods. This is due to repeated cases where someone pays for bitcoins with PayPal, receives their bitcoins, and then fraudulently fill a complain that they never received their purchase, often succesfully reversing the transaction. Most exchanges cannot afford the risk and require irreversible payments, such as wire transfer.</p>
+
+<h3><a name="how-are-new-bitcoins-created">How are new bitcoins created?</a></h3>
+<div style="float: right">
+<img src="https://en.bitcoin.it/w/images/en/thumb/e/e3/Total_bitcoins_over_time_graph.png/180px-Total_bitcoins_over_time_graph.png" alt="Total bitcoins over time">
+<p><i>Total Bitcoins over time</i></p>
+</div>
+<p>New bitcoins are generated by the network through the process of <i>mining</i>. In a process that is similar to a continuous raffle draw, mining nodes on the network are awarded bitcoins each time they find the solution to a certain mathematical problem (and thereby create a new <a href="https://en.bitcoin.it/wiki/Block">block</a>). Creating a block is a <a href="https://en.bitcoin.it/wiki/Proof_of_work">proof of work</a> with a difficulty that varies with the overall strength of the network. The reward for solving a block is <a href="https://en.bitcoin.it/wiki/Controlled_Currency_Supply">automatically adjusted</a> so that in roughly the first four years of operation of the Bitcoin network, {{formatnum:10500000}} BTC will be created. This amount is halved each four years, so it will be {{formatnum:5250000}} over years 4-8, {{formatnum:2625000}} over years 8-12, and so on. Thus the total number of bitcoins in existence will not exceed {{formatnum:21000000}}. See <a href="https://en.bitcoin.it/wiki/Controlled_Currency_Supply">Controlled Currency Supply</a>.</p>
+<p>Blocks are <a href="https://en.bitcoin.it/wiki/Mining">mined</a> every 10 minutes, on average and for the first four years ({{formatnum:210000}} blocks) each block includes 50 new bitcoins. As the amount of processing power directed at mining changes, the difficulty of creating new bitcoins changes. This difficulty factor is calculated every 2016 blocks and is based upon the time taken to generate the previous 2016 blocks. See <a href="https://en.bitcoin.it/wiki/Mining">Mining</a>.</p>
+
+<h3><a name="what-is-the-current-total-number-of-bitcoins-in-existence">What's the current total number of bitcoins in existence?</a></h3>
+<p><a href="http://blockexplorer.com/q/totalbc">Current count</a>. Also see <a href="https://blockchain.info/charts/total-bitcoins">Total bitcoins in circulation chart</a></p>
+<p>The number of blocks times the coin value of a block is the number of coins in existence. The coin value of a block is 50 BTC for each of the first {{formatnum:210000}} blocks, 25 BTC for the next {{formatnum:210000}} blocks, then 12.5 BTC, 6.25 BTC and so on.</p>
+
+<h3><a name="what-do-i-call-the-various-denominations-of-bitcoins">What do I call the various denominations of bitcoins?</a></h3>
+<p>There is a lot of discussion about the naming of these fractions of bitcoins. The leading candidates are:</p>
+<ul>
+	<li>1 BTC = 1 bitcoin</li>
+	<li>0.01 BTC = 1 cBTC = 1 centibitcoin (also referred to as bitcent)</li>
+	<li>0.001 BTC = 1 mBTC = 1 millibitcoin (also referred to as mbit (pronounced em-bit) or millibit or even bitmill)</li>
+	<li>0.000 001 BTC = 1 μBTC = 1 microbitcoin (also referred to as ubit (pronounced yu-bit) or microbit)</li>
+</ul>
+<p>The above follows the accepted international SI prefixes for hundredths, thousandths, and millionths. There are many arguments against the special case of 0.01 BTC since it is unlikely to represent anything meaningful as the Bitcoin economy grows (it certainly won't be the equivalent of 0.01 USD, GBP or EUR). Equally, the inclusion of existing national currency denominations such as "cent", "nickel", "dime", "pence", "pound", "kopek" and so on are to be discouraged; this is a worldwide currency.</p>
+<p>One exception is the "satoshi" which is smallest denomination currently possible</p>
+<ul>
+	<li>0.000 000 01 BTC = 1 satoshi (pronounced sa-toh-shee)</li>
+</ul>
+<p>which is so named in honour of Satoshi Nakamoto, the pseudonym of the inventor of Bitcoin.</p>
+<p>For an overview of all defined units of Bitcoin (including less common and niche units), see <a href="https://en.bitcoin.it/wiki/Units">Units</a>.</p>
+<p>Further discussion on this topic can be found on the forums here:</p>
+<ul>
+	<li><a href="https://bitcointalk.org/index.php?topic=14438.msg195287#msg195287">We need names</a></li>
+	<li><a href="https://bitcointalk.org/index.php?topic=8282.0">What to call 0.001 BTC</a></li>
+</ul>
+
+<h3><a name="how-does-the-halving-work-when-the-number-gets-really-small">How does the halving work when the number gets really small?</a></h3>
+<p>Eventually the reward will go from 0.00000001 BTC to zero and no more bitcoins will be created.</p>
+<p>The block reward calculation is done as a right bitwise shift of a 64-bit signed integer, which means it is divided by two and rounded down. The integer is equal to the value in BTC * 100,000,000 since internally in the reference client software, all Bitcoin balances and values are stored as unsigned integers.</p>
+<p>With an initial block reward of 50 BTC, it will take many 4-year periods for the block reward to reach zero.</p>
+
+<h3><a name="how-long-will-it-take-to-generate-all-the-coins">How long will it take to generate all the coins?</a></h3>
+<p>The last block that will generate coins will be block #6,929,999 which should be generated at or near the year 2140. The total number of coins in circulation will then remain static at 20,999,999.9769 BTC.</p>
+<p>Even if the allowed precision is expanded from the current 8 decimals, the total BTC in circulation will always be slightly below 21 million (assuming everything else stays the same). For example, with 16 decimals of precision, the end total would be 20,999,999.999999999496 BTC.</p>
+
+<h3><a name="if-no-more-coins-are-going-to-be-generated-will-more-blocks-be-created">If no more coins are going to be generated, will more blocks be created?</a></h3>
+<p>Absolutely! Even before the creation of coins ends, the use of <a href="https://en.bitcoin.it/wiki/Transaction_fee">transaction fees</a> will likely make creating new blocks more valuable from the fees than the new coins being created. When coin generation ends, these fees will sustain the ability to use bitcoins and the Bitcoin network. There is no practical limit on the number of blocks that will be mined in the future.</p>
+
+<h3><a name="but-if-no-more-coins-are-generated-what-happens-when-bitcoins-are-lost">But if no more coins are generated, what happens when Bitcoins are lost? Won't that be a problem?</a></h3>
+<p>Because of the law of supply and demand, when fewer bitcoins are available the ones that are left will be in higher demand, and therefore will have a higher value. So, as Bitcoins are lost, the remaining bitcoins will eventually increase in value to compensate. As the value of a bitcoin increases, the number of bitcoins required to purchase an item '''de'''creases. This is a <a href="https://en.bitcoin.it/wiki/Deflationary_spiral">deflationary economic model</a>. As the average transaction size reduces, transactions will probably be denominated in sub-units of a bitcoin such as millibitcoins ("Millies") or microbitcoins ("Mikes").</p>
+<p>The Bitcoin protocol uses a base unit of one hundred-millionth of a Bitcoin ("a Satoshi"), but unused bits are available in the protocol fields that could be used to denote even smaller subdivisions.</p>
+
+<h3><a name="if-every-transaction-is-broadcast-via-the-network-does-bitcoin-scale">If every transaction is broadcast via the network, does Bitcoin scale?</a></h3>
+<p>The Bitcoin protocol allows lightweight clients that can use Bitcoin without downloading the entire transaction history. As traffic grows and this becomes more critical, implementations of the concept will be developed. Full network nodes will at some point become a more specialized service.</p>
+<p>With some modifications to the software, full Bitcoin nodes could easily keep up with both VISA and MasterCard combined, using only fairly modest hardware (a single high end server by todays standards). It is worth noting that the MasterCard network is structured somewhat like Bitcoin itself - as a peer to peer broadcast network.</p>
+<p>Learn more about <a href="https://en.bitcoin.it/wiki/Scalability">Scalability</a>.</p>
+
+<h2><a name="#economy">Economy</a></h2>
+
+<h3><a name="where-does-the-value-of-bitcoin-stem-from-what-backs-up-bitcoin">Where does the value of Bitcoin stem from? What backs up Bitcoin?</a></h3>
+<p>Bitcoins have value because they are useful and because they are <a href="https://en.bitcoin.it/wiki/Controlled_Currency_Supply">scarce</a>. Technically speaking, Bitcoin can have all the attributes of money (fungibility, scarcity, divisibility, and recognizability) based on the properties of mathematics instead of relying on the physical properties of a rock like gold or of a politically issued currency. With these attributes, all that is required for a form of money to gain value is trust and acceptance. In the case of Bitcoin, this can be mesured by its growing base of users, merchants and startups.</p>
+
+<h3><a name="is-bitcoin-a-bubble">Is Bitcoin a bubble?</a></h3>
+<p>A fast rise in price does not constitute a bubble. An artificial over-valuation that will suddenly downward correct constitutes a bubble.</p>
+<p>Choices based on individual human action by hundreds of thousands of market participants is the cause for Bitcoin's price to fluctuate as the market seeks price discovery. Some reasons for this change in sentiment may be a loss of confidence in the currency, a large difference between value and price not based on the fundamentals of the Bitcoin economy, excessive press coverage stimulating speculative demand, fear of uncertainty, and just old-fashioned irrational exuberance and greed.</p>
+
+<h3><a name="is-bitcoin-a-ponzi-scheme">Is Bitcoin a Ponzi scheme?</a></h3>
+<p>A Ponzi scheme is a fraudulent investment operation that pays returns to its investors from their own money, or the money paid by subsequent investors, instead of from profit earned by the individual or organization running the operation.</p>
+<p>Bitcoin is an open-source software project with no central authority and consequently no one is in a position to make fraudulent representations about investment returns. Like other major currencies such as gold, United States dollars, Euros, Yen, etc. there is no guaranteed purchasing power and the exchange rate freely floats. This can lead to volatility where owners of bitcoins can make or lose value.</p>
+<p>Bitcoin is an innovative payment system and not a Ponzi scheme. However, since Bitcoin transactions are irreversible it can be attractive for a Ponzi scam operator, and there have been several notable Ponzi scams which have failed and did use Bitcoin.</p>
+
+<h3><a name="is-bitcoin-a-pyramid-scheme">Is Bitcoin a Pyramid scheme?</a></h3>
+<p>Bitcoin is nearly opposite of a pyramid scheme in a mathematical sense. Because Bitcoins are algorithmically made scarce, no exponential benefit is derived from introducing new users to use of it. There is a quantitative benefit in having additional interest or demand, but this is in no way exponential.</p>
+
+<h3><a name="doesnt-bitcoin-unfairly-benefit-early-adopters">Doesn't Bitcoin unfairly benefit early adopters?</a></h3>
+<p>Some early adopters have a large number of bitcoins now because they took a risk and invested resources in an unproven technology. However, many of them also spent a great part of their bitcoins quite a few times during the price increases and didn't make huge gains. The Bitcoin market is a free market and there is no garantee that the price will continue to increase. It is very similar to investing in a early startup that is either gaining value through its usefulness and popularity over time, or just never break through.</p>
+
+<h3><a name="wont-the-finite-amount-of-bitcoins-create-excessive-deflation-destroying-bitcoin">Won't loss of wallets and the finite amount of Bitcoins create excessive deflation?</a></h3>
+<p>Unlike most currencies, Bitcoin will likely experience gradual increase of its price with the passage of time. Bitcoin is unique in that only 21 millions bitcoins will ever be created. This number has been known since the project's inception, and the units are created at a predicable rate.</p>
+<p>Bitcoins can already be divided up to 8 decimal places ( 0.00000001 BTC ) and it will probably take decades before this doesn't suffice to cover the needs of the economy, if this even happens. This leaves plenty of time for developers find a way to increase Bitcoin divisibility. Following important price increases over time, Bitcoin users don't need to display their prices with more than two decimal places. Prices can also be displayed in mBTC (0.0001 BTC) or satoshis (0.00000001 BTC) .</p>
+<p>When a user loses his wallet, its has the same effect of removing money out of circulation. This is pretty similar to a perfect redistribution of wealth to all other Bitcoin users through global deflation. These lost bitcoins could, however, be recovered by some new mining operations in a distant future if Bitcoin needed to move to different algorithms following the advancement of quantum computing technologies.</p>
+<p>FIXME a note about the deflationary spiral argument here?</p>
+
+<h3><a name="what-if-someone-bought-up-all-the-existing-bitcoins">What if someone bought up all the existing Bitcoins?</a></h3>
+<p>Bitcoin markets are competitive -- meaning the price of a bitcoin will rise or fall depending on supply and demand at certain price levels. Only a fraction of bitcoins issued to date are found on the exchange markets for sale. So even though technically a buyer with lots of money could buy all the bitcoins offered for sale, unless those holding the rest of the bitcoins offer them for sale as well, even the wealthiest, most determined buyer can't get at them.</p>
+<p>Additionally, new currency continues to be issued daily and will continue to do so for decades though over time the rate at which they are issued declines to insignificant levels. Those who are mining aren't obligated to sell their bitcoins so not all bitcoins will make it to the markets even.</p>
+<p>This situation doesn't suggest, however, that the markets aren't vulnerable to price manipulation. It doesn't take significant amounts of money to move the market price up or down and thus Bitcoin remains a volatile asset.</p>
+
+<h3><a name="what-if-someone-creates-a-new-digital-currency-that-renders-bitcoin-obsolete">What if someone creates a new digital currency that renders Bitcoin obsolete?</a></h3>
+<p>That can certainly happens. As for now, Bitcoin remains by far the first and foremost private decentralized virtual currency but there can't be any guarantees that it will retain that position. There is already a set of alternative currencies floating around Bitcoin. It is however generally safe to assume that significant improvements would be required for a new digital currency to outrace Bitcoin in terms of esthablished market and networking effect, even though this cannot be predicted by anybody.</p>
+
+<h2><a name="transaction">Transaction</a></h2>
+
+<h3><a name="why-do-i-have-to-wait-10-minutes-before-i-can-spend-money-i-received">Why do I have to wait 10 minutes before I can spend money I received?</a></h3>
+<p>10 minutes is the average time taken to find a block. It can be significantly more or less time than that depending on luck; 10 minutes is simply the average case. </p>
+<p>You can see how long all other recent transactions have taken here: <a href="http://bitcoinstats.org/">BitcoinStats.org</a>. </p>
+<p><a href="https://en.bitcoin.it/wiki/Blocks">Blocks</a> (shown as "confirmations" in the GUI) are how the Bitcoin achieves consensus on who owns what. Once a block is found everyone agrees that you now own those coins, so you can spend them again. Until then it's possible that some network nodes believe otherwise, if somebody is attempting to defraud the system by reversing a transaction. The more confirmations a transaction has, the less risk there is of a reversal. Only 6 blocks or 1 hour is enough to make reversal computationally impractical. This is dramatically better than credit cards which can see chargebacks occur up to three months after the original transaction!</p>
+<p>Ten minutes was specifically chosen by <a href="https://en.bitcoin.it/wiki/Satoshi">Satoshi</a> as a tradeoff between propagation time of new blocks in large networks and the amount of work wasted due to chain splits. For a more technical explanation, see Satoshi's <a href="/bitcoin.pdf">original technical paper</a>.</p>
+<img src="https://en.bitcoin.it/w/images/en/3/30/TransactionConfirmationTimesExample.PNG">
+
+<h3><a name="do-you-have-to-wait-until-my-transactions-are-confirmed-in-order-to-buy-or-sell-things">Do you have to wait until my transactions are confirmed in order to buy or sell things with Bitcoin?</a></h3>
+<p>YES, you do, IF the transaction is non-recourse. The Bitcoin reference software does not display transactions as confirmed until six blocks have passed (confirmations). As transactions are burred in the chain they become increasingly non-reversible but are very reversible before the first confirmation. Two to six confirmations are recommended for non-recourse situations depending on the value of the transactions involved.</p>
+<p>When people ask this question they are usually thinking about applications like supermarkets. This generally is a recourse situation: if somebody tries to double-spend on a face-to-face transaction it might work a few times, but probabalistically speaking eventually one of the double-spends will get noticed, and the penalty for shoplifting charges in most localities is calibrated to be several times worse than the proceeds of a single shoplifting event.</p>
+<p>Double-spends might be a concern for something like a snack machine in a low-traffic area with no nearby security cameras. Such a machine shouldn't honor 0-confirmation payments, and should instead use some other mechanism of clearing Bitcoin or validating transactions against reversal, see the wiki article <a href="https://en.bitcoin.it/wiki/Myths#Point_of_sale_with_bitcoins_isn.27t_possible_because_of_the_10_minute_wait_for_confirmation">here</a> for alternatives.</p>
+<p>Applications that require immediate payment processing, like supermarkets or snack machines, need to manage the risks. Here is one way to reverse an unconfirmed payment:</p>
+<p>A <a href="https://en.bitcoin.it/wiki/Double-spending#Finney_attack">Finney attack</a>, in which an attacker mines a block containing a movement of some coins back to themselves. Once they find a block solution, they quickly go to a merchant and make a purchase, then broadcast the block, thus taking back the coins. This attack is a risk primarily for goods that are dispatched immediately, like song downloads or currency trades. Because the attacker can't choose the time of the attack, it isn't a risk for merchants such as supermarkets where you can't choose exactly when to pay (due to queues, etc). The attack can fail if somebody else finds a block containing the purchasing transaction before you release your own block, therefore, merchants can reduce but not eliminate the risk by making purchasers wait some length of time that's less than a confirm.</p>
+<p>Because pulling off this attack is not trivial, merchants who need to sell things automatically and instantly are most likely to just price the cost of reversal fraud in, or use insurance.</p>
+
+<h3><a name="i-was-sent-some-bitcoins-and-they-havent-arrived-yet-where-are-they">I was sent some bitcoins and they haven't arrived yet! Where are they?</a></h3>
+<p>Don't panic! There are a number of reasons why your bitcoins might not show up yet, and a number of ways to diagnose them. </p>
+<p>The latest version of the Bitcoin-Qt client tells you how far it has yet to go in downloading the block chain. Hover over the icon in the bottom right corner of the client to learn your client's status.</p>
+<p>If it has not caught up then it's possible that your transaction hasn't been included in a block yet. </p>
+<p>You can check pending transactions in the network by going <a href="http://blockchain.info">here</a> and then searching for your address. If the transaction is listed here then it's a matter of waiting until it gets included in a block before it will show in your client. </p>
+<p>If the transaction is based on a coin that was in a recent transaction then it could be considered a low priority transaction. Transfers can take longer if the transaction fee paid was not high enough. If there is no fee at all the transfer can get a very low priority and take hours or even days to be included in a block.</p>
+
+<h3><a name="why-does-my-bitcoin-address-keep-changing">Why does my Bitcoin address keep changing?</a></h3>
+<p>Whenever the address listed in "Your address" receives a transaction, Bitcoin replaces it with a new address. This is meant to encourage you to use a new address for every transaction, which enhances <a href="https://en.bitcoin.it/wiki/Anonymity">anonymity</a>. All of your old addresses are still usable: you can see them in ''Settings -> Your Receiving Addresses''.</p>
+
+<h3><a name="how-much-will-the-transaction-fee-be">How much will the transaction fee be?</a></h3>
+<p>Some transactions might require a <a href="https://en.bitcoin.it/wiki/Transaction_fee">transaction fee</a> for them to get confirmed in a timely manner. The transaction fee is processed by and received by the bitcoin miner. The most recent version of the Bitcoin client will estimate an appropriate fee when a fee might be required.</p>
+<p>The fee is added to the payment amount. For example, if you are sending a 1.234 BTC payment and the client requires a 0.0005 BTC fee, then 1.2345 BTC will be subtracted from the wallet balance for the entire transaction and the address for where the payment was sent will receive a payment of 1.234 BTC.</p>
+<p>A fee might be imposed because your transaction looks like a denial of service attack to the Bitcoin system. For example, it might be burdensome to transmit or it might recycle Bitcoins you recently received. The wallet software attempts to avoid generating burdensome transactions, but it isn't always able to do so: The funds in your wallet might be new or composed of many tiny payments.</p>
+<p>Because the fee is related to the amount of data that makes up the transaction and not to the amount of Bitcoins being sent, the fee may seem extremely low (0.0005 BTC for a 1,000 BTC transfer) or unfairly high (0.004 BTC for a 0.02 BTC payment, or about 20%). If you are receiving tiny amounts (''e.g.'' as small payments from a mining pool) then fees when sending will be higher than if your activity follows the pattern of conventional consumer or business transactions. </p>
+<p>As of Bitcoin 0.5.3 the required fee will not be higher than 0.05 BTC. For most users there is usually no required fee at all. If a fee is required it will most commonly be 0.0005 BTC.</p>
+
+<h3><a name="what-happens-when-someone-sends-me-a-bitcoin-but-my-computer-is-powered-off">What happens when someone sends me a bitcoin but my computer is powered off?</a></h3>
+<p>Bitcoins are not actually "sent" to your wallet; the software only uses that term so that we can use the currency without having to learn new concepts. Your wallet is only needed when you wish to spend coins that you've received.</p>
+<p>If you are sent coins when your wallet client program is not running, and you later launch the wallet client program, the coins will eventually appear as if they were just received in the wallet. That is to say, when the client program is started it must download blocks and catch up with any transactions it did not already know about.</p>
+
+<h3><a name="how-long-does-synchronizing-take-when-the-bitcoin-client-is-first-installed-whats-it-doing">How long does "synchronizing" take when the Bitcoin client is first installed? What's it doing?</a></h3>
+<p>The popular Bitcoin client software from bitcoin.org implements a "full" Bitcoin node: It can carry out all the duties of the Bitcoin P2P system, it isn't simply a "client". One of the principles behind the operation of full Bitcoin nodes is that they don't assume that the other participants have followed the rules of the Bitcoin system. During synchronization, the software is processing historical Bitcoin transactions and making sure for itself that all of the rules of the system have been correctly followed.</p>
+<p>In normal operation, after synchronizing, the software should use a hardly noticeable amount of your computer's resources.</p>
+<p>When the wallet client program is first installed, its initial validation requires a lot of work from your computer's hard disk, so the amount of time to synchronize depends on your disk speed and, to a lesser extent, your CPU speed. It can take anywhere from a few hours to a day or so. On a slow computer it could take more than 40 hours of continuous synchronization, so check your computer's power-saving settings to ensure that it does not turn its hard disk off when unattended for a few hours. You can use the Bitcoin software during synchronization, but you may not see recent payments to you until the client program has caught up to the point where those transactions happened.</p>
+<p>If you feel that this process takes too long, you can download a pre-synchronized block chain from <a href="http://eu2.bitcoincharts.com/blockchain/">http://eu2.bitcoincharts.com/block chain/</a>. Alternatively, you can try an alternative "lite" client such as Multibit or a super-light client like electrum, though these clients have somewhat weaker security, are less mature, and don't contribute to the health of the P2P network.</p>
+
+<h2><a name="mining">Mining</a></h2>
+
+<h3><a name="what-is-mining">What is mining?</a></h3>
+<p>Mining is the process of spending computation power to process Bitcoin transactions, secure them against reversal and introducing new bitcoins to the system at a predictable rate.</p>
+
+<p>All Bitcoin miners are required to provide proof of works, which are mathematic proofs that fit very rare attributes. A proof of work can be extremely hard to generate but their validity can always be verified in less than a second by the network. Because there is no way to generate a proof of work other than trying millions of random calculations, miners cannot cheat and are forced to do these calculations before their blocks are accepted by the network. One of the attributes of these proof of work depends on the previous blocks, which makes it exponentially difficult to change a previous block because this would require to recalculate all proof of works of all following blocks. Over time as more miners join the network, the difficulty of these calculations is automatically increased by the network.</p>
+
+<p>Technically speaking, mining is the calculation of a <a href="https://en.bitcoin.it/wiki/Hash">hash</a> of the a block header, which includes among other things a reference to the previous block, a hash of a set of transactions and a <a href="https://en.bitcoin.it/wiki/Nonce">nonce</a>. If the hash value is found to be less than the current <a href="https://en.bitcoin.it/wiki/Target">target</a> (which is inversely proportional to the <a href="https://en.bitcoin.it/wiki/Difficulty">difficulty</a>), a new block is formed and the miner gets the newly generated Bitcoins (25 per block at current levels). If the hash is not less than the current target, a new nonce is tried, and a new hash is calculated. This is done millions of times per second by each miner.</p>
+
+<h3><a name="is-it-not-a-waste-of-energy">Is it not a waste of energy?</a></h3>
+<p>Spending energy on creating and securing a free monetary system is hardly a waste. Also, services necessary for the operation of currently widespread monetary systems, such as banks and credit card companies, also spend a lot of energy. This energy consumption is just not transparent and cannot be evaluated publicly like Bitcoin.</p>
+
+<h3><a name="how-does-mining-help-secure-bitcoin">How does mining help secure Bitcoin?</a></h3>
+<p>Mining basically creates the equivalence of a competitive lottery that makes it very difficult for anyone to consecutively add new blocks in the block chain. Therefore protecting the neutrality of the network by preventing any individual to gain the power to block certain transactions or replace parts of the block chain to roll back their own spends, which could be used to defraud other users.</p>
+
+<h3><a name="what-do-i-need-to-start-mining">What do I need to start mining?</a></h3>
+<p>In the early days of Bitcoin, it was easy for anyone to find new blocks using standard CPUs. As more and more people started mining, the <a href="https://en.bitcoin.it/wiki/Difficulty">difficulty</a> of finding new blocks has greatly increased to the point where the only cost-effective method of mining is using specialized hardware (ASICs). See <a href="http://www.bitcoinmining.com/">BitcoinMining.com</a> for more informations.</p>
+
+<h2><a name="security">Security</a></h2>
+
+<h3><a name="could-miners-collude-and-break-bitcoin">Could miners collude and break Bitcoin?</a></h3>
+<p>It isn't possible to change the Bitcoin protocol with a majority of miners. Any miner that doesn't comply with the current protocol immediately generates a parallel chain fork as the rest of the network is rejecting blocks from these miners, including all Bitcoin clients that are not mining. As per the current specification, no double spending is possible on the same block chain, therefore miners cannot generate uncontrolled amounts of bitcoins out of thin air or anything similar.</p>
+<p>However, a majority of miners could arbirarily choose to block or reverse targeted recent transactions, even though they could by no means spend other users bitcoins. This could be used for censorship purposes or to defraud merchants, by reversing a payment after receiving goods and services. But this can also be used for legitimate purposes, like applying a collaborative emergency action to help fixing a problem with the network. A good example of this is the <a href="/en/alert/2013-03-11-chain-fork">march 2013 chain fork</a></p>
+
+<h3><a name="hasnt-bitcoin-been-hacked-in-the-past">Hasn't Bitcoin been hacked in the past?</a></h3>
+<p>In the history of Bitcoin, there has never been an attack on the block chain that resulted in permanent stolen money from a confirmed output. Neither has there ever been a reported theft resulting directly from a vulnerability in the original Bitcoin client, or a vulnerability in the protocol. Bitcoin is secured by standard cryptographic functions. These functions have been peer reviewed by cryptography experts and are considered unlikely to be breakable in the foreseeable future.</p>
+<p>It is safe to say that the currency itself has never been 'hacked'. However, several major websites using the currency have been hacked, often resulting in high profile Bitcoin heists. These heists are misreported in some media as hacks on Bitcoin itself. An analogy: Just because someone stole US dollars from a supermarket till, doesn’t mean that the US dollar as a currency has been 'hacked'.</p>
+<p>Most bitcoin thefts are the result of inadequate wallet security. In response to the wave of thefts in 2011 and 2012, the community has developed risk-mitigating measures such as wallet encryption, support for multiple signatures, offline wallets, paper wallets, and hardware wallets. As these measures gain adoption by merchants and users, it is expected that the number of thefts will drop.</p>
+
+<h2><a name="help">Help</a></h2>
+
+<h3>I'd like to learn more. Where can I get help?</h3>
+<p>You can find more useful informations and help in the <a href="#resources#">resources</a> and <a href="#community#">community</a> pages.</p>
