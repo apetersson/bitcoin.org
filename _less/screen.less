@@ -521,21 +521,26 @@ li p{
 	top:-2px;
 }
 
-.index,.index ul,.index li{
+.index,
+.index ul,
+.index li{
 	list-style:none;
 	padding:0px;
 	margin:0px;
 }
 .index{
-	padding:20px;
+	padding:15px 20px;
 	border:2px dashed #4892b2;
 	display:inline-block;
 }
 .index li a{
 	font-weight:bold;
 }
+.index ul li a{
+	font-weight:normal;
+}
 .index ul{
-	padding:20px 0px 20px 20px;
+	padding:15px 0px;
 }
 .index a,
 .index a:link,
@@ -1132,6 +1137,15 @@ h2 .rssicon{
 	#footer{
 		padding:20px 0px 20px 5px;
 		background-color:transparent;
+	}
+	.index{
+		padding:5px 10px;
+	}
+	.index a{
+		margin:5px 0px;
+	}
+	.index ul{
+		padding:3px 0px;
 	}
 	.contributors{
 		width:auto;
